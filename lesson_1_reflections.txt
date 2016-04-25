@@ -1,4 +1,4 @@
-How did viewing a diff [fc in Windows] between two versions of a file help you see the bug that was introduced?
+ How did viewing a diff [fc in Windows] between two versions of a file help you see the bug that was introduced?
 
 	It isolated the changes from the old file to the new, so I could focus my attention on those
 	changes.
@@ -10,8 +10,8 @@ How could having easy access to the entire history of a file make you a more-eff
 What do you think are the pros and cons of manually choosing when to create a commit,
 like you do in Git, vs having versions automatically saved, like Google Docs does?
 
-	Automated commits are more convenient, and better than nothing if you're not 
-	disciplined about committing changes. But it makes for a cluttered "diff" 
+	Automated commits are more convenient, and better than nothing if you're not
+	disciplined about committing changes. But it makes for a cluttered "diff"
 	with no logical relationship between changes.
 
 WHy do you think some version control systems, like Git, allow saving multiple files
@@ -37,3 +37,4 @@ Now that you have your workspace set up, what do you want to try using Git for?
 
 	For version control of development projects.
 
+This is a test change.
