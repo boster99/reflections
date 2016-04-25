@@ -1,5 +1,18 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-	Git creates a hidden directory structure and files, which are ready to 
+	Git creates a hidden directory structure and files, which are ready to
 	store files. Cannot do git version control without it.
 
+How is the Staging Area different from the Working Directory and the repository?
+What value do you think it offers?
+
+	The Working Directory is the "home" location of files which may or may not be
+	included in the repository, and it is also the home of the repository. The
+	repository is the "holder" of committed files and their various versions.
+	The Staging Area is a temporary holder of files which are ready to be
+	committed, but have not yet been committed. Upon "commit", all files in the
+	Staging Area go into the Repository together.
+
+	This allows files which are related to each other, and which together may
+	relate to a specific change, to be included in the same new version in the
+	Repository.
