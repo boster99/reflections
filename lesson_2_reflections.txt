@@ -16,3 +16,12 @@ What value do you think it offers?
 	This allows files which are related to each other, and which together may
 	relate to a specific change, to be included in the same new version in the
 	Repository.
+
+How can you use the staging area to make sure you have one commit per
+logical change?
+
+	I can do a "git diff" to learn the difference between the working directory
+	and the repository, to help me learn what changes I have ready to commit.
+	Also, I can add files to the staging area in groups, relative to a single
+	change, then commit those files. Files which have changes unrelated to that
+	single change can be added/committed later.
