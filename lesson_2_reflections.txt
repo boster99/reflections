@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	Git creates a hidden directory structure and files, which are ready to 
+	store files. Cannot do git version control without it.
+
