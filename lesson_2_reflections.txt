@@ -25,3 +25,18 @@ logical change?
 	Also, I can add files to the staging area in groups, relative to a single
 	change, then commit those files. Files which have changes unrelated to that
 	single change can be added/committed later.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+	A branch is useful when you want to make changes which should be separated
+	from the main set of code. If there is a major flaw which will take time
+	to fix, and in the mean time other bugs or small features might be added
+	to the program, the major flaw should be dealt with in a branch off from
+	the master so the smaller bugs and small features can be added to the app
+	without adding in-process changes related to the major flaw.
+
+How do the diagrams help you visualize the branch structure?
+
+	They demonstrate the commits which are related to each other, and which are
+	not related, or are distantly related, to each other.
